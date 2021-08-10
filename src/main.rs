@@ -3,7 +3,7 @@ mod fun_test2;
 mod array_and_vector;
 mod input_and_output;
 use std::io;
-
+//use crate::fun_test2::scholoarship_check;
 
 fn main() {
     println!("Hello, world!");
@@ -14,14 +14,16 @@ fn main() {
     tests();
 
     // fin_test.rs file function call using scope--resolution oprerator;
-    fun_test::add_to_waitlist();   
+    fun_test::fun_test_call();   
     fun_test::odd_even(55);
-    println!("ENTER YOUR MARKS FOR SCHOLORSHIP");
+
+
+    /*println!("ENTER YOUR MARKS FOR SCHOLORSHIP");
     let mut scholorship_marks = String::new();
     io::stdin().read_line(&mut scholorship_marks).expect("failed to read input.");
     let scholorship_marks: i32 = scholorship_marks.trim().parse().expect("invalid input");
-    
-    fun_test::funny(scholorship_marks);
+    */
+    fun_test2::scholoarship_check();
 
     /*
     important for converting intput string into integer
@@ -45,10 +47,12 @@ fn main() {
     println!("sum of multiplaction table 2 =   {}", m);
     input_and_output::get_input_integer();
     input_and_output::get_input_string();
+    //array_and_vector::vector();
+    //array_and_vector::Dy_Vector();
 
 
 }
- // OutSide Main Function Decleration
+ //******************** OutSide Main Function Decleration ****************
 fn print_type_of<T>(_: &T) {
     println!("{}", std::any::type_name::<T>())
 }
