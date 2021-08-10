@@ -1,4 +1,4 @@
-/*use std::io;
+use std::io;
 pub fn table (x: i32) ->i32{
     let mut sum=0;
     println!(" ***************multiplaction table of {} *********************", x);
@@ -47,4 +47,3 @@ pub fn dy_vector( x:i32) -> Vec<i32> {
     println!("marks_vactor_list: {:?}", marks_vector_list);
     return marks_vector_list;
 }
-*/

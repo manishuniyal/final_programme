@@ -1,4 +1,4 @@
-/*use std::io;
+use std::io;
 
 pub fn get_input_string() -> String {
     let mut input_from_user = String::new();
@@ -29,4 +29,3 @@ pub fn get_input_integer() -> i32 {
     //print!("'{}'", input_integer);
     return input_integer;
 }
-*/

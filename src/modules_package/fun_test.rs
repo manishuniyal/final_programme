@@ -1,4 +1,4 @@
-/*
+
 pub fn fun_test_call() {
     println!("manish, world!");
     println!("manish, world!");
@@ -35,4 +35,3 @@ pub fn funny (score:i32) {
         println!("Better luck next time!!! you'r not qualify for scholoarship");
     }
 }
-*/
