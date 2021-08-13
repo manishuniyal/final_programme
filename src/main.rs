@@ -1,8 +1,10 @@
 /*mod fun_test;
 mod fun_test2;
-mod array_and_vector;
 mod input_and_output;*/
-use std::io;
+//extern crate module1;;
+//use crate::module1::module_test;
+//use std::io;
+
 #[path = "modules_package/module1.rs"] mod module1;
 #[path = "modules_package/fun_test.rs"] mod fun_test;
 #[path = "modules_package/array_and_vector.rs"] mod array_and_vector;
@@ -10,7 +12,7 @@ use std::io;
 
 #[path = "modules_package/input_and_output.rs"] mod input_and_output;
 
-#[path = "modules_package/module1.rs"] mod module2;
+#[path = "modules_package/module2.rs"] mod module2;
 
 
 
@@ -60,6 +62,7 @@ fn main() {
     input_and_output::get_input_string();
     //array_and_vector::vector();
     //array_and_vector::Dy_Vector();
+    module2::module_test2();
     module1::module_test();
 
 
@@ -70,6 +73,6 @@ fn print_type_of<T>(_: &T) {
 }
 //main.rs file function decleration;
 fn tests() {
-    println!("Hello, world!");
-    println!("Hello, world!");
+    println!("Hello, main world!");
+    println!("Hello, main world!");
 }

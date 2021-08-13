@@ -20,7 +20,7 @@ pub fn odd_even(n:i32) -> () {
     }
     
 }
-fn top (x:i32)-> bool{
+fn top(x:i32)-> bool{
     {
         return x%2==0;
     }
