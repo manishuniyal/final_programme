@@ -20,7 +20,7 @@ Rust Installation blog< https://www.techrepublic.com/article/how-to-install-rust
 
 
 
-<for sql to down data from server>
+#<for sql to down data from server>
 
 SELECT id, job_title FROM job where id<1000
 INTO OUTFILE '/var/lib/mysql-files/table.csv'
